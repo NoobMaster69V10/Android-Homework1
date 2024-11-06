@@ -51,20 +51,20 @@
             android:id="@+id/okayButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="36dp"
-            android:text="Okay">
-            <Gradient
-                android:angle="270"
-                android:endColor="#000"
-                android:startColor="#000" >
-            </Gradient>
-        </Button>
+            app:backgroundTint="@null"
+            android:background="@drawable/button_gradient"
+            android:layout_marginBottom="30dp"
+            android:text="Okay" />
+
         <Button
             android:id="@+id/nextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="@drawable/button_gradient"
             android:text="Next"/>
 
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
